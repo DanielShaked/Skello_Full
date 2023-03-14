@@ -1,0 +1,122 @@
+.labels-modal-content {
+    // Title
+    .modal-title {
+        h4 {
+            margin: 0;
+        }
+
+        margin: 4px 0px 8px;
+    }
+
+    .modal-main-input {
+        line-height: 20px;
+    }
+
+    .checked-label-icon {
+        position: absolute;
+        right: 15px;
+        top: 10px;
+    }
+
+    // Lower div
+    .new-label-btn {
+        width: 100%;
+        padding: 6px 12px;
+        margin: 8px 4px;
+    }
+
+    .lower-modal-hr {
+        background-color: #091e422d;
+        border: 0;
+        height: 1px;
+        padding: 0;
+        width: 100%;
+        margin: 8px 0;
+    }
+
+    // List
+    .modal-items-to-edit {
+        .label-container {
+            padding-right: 36px;
+            position: relative;
+            margin: 0 0 4px;
+            min-height: 2px;
+
+            .edit-label-btn {
+                color: #42526e;
+                background-color: inherit;
+                padding: 6px;
+                border: none;
+                position: absolute;
+                right: 0;
+                top: 0;
+            }
+
+            .label-box {
+                border-radius: 3px;
+                cursor: pointer;
+                font-weight: 700;
+                padding: 6px 12px;
+                color: white;
+                max-width: 100%;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                min-height: 32px;
+                position: relative;
+
+                &.blind-mode {
+                    padding-left: 25px;
+                }
+
+                img {
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    border-top-left-radius: 3px;
+                    border-bottom-left-radius: 3px;
+                }
+            }
+        }
+    }
+
+    // Add Edit Modal
+
+    .add-edit-modal {
+        .back-btn {
+            position: absolute;
+            top: 5px;
+            left: 5px;
+            background-color: inherit;
+            border: none;
+            padding: 10px 8px 10px 12px;
+        }
+
+        .color-grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, 48px);
+            gap: 8px;
+        }
+        .color-option {
+            height: 32px;
+            border-radius: 4px;
+            color: white;
+            position: relative;
+            cursor: pointer;
+        }
+        .no-color-section {
+            display: flex;
+
+            .no-color-selection-info {
+                flex: 1;
+            }
+        }
+
+        .add-edit-options {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 15px;
+        }
+    }
+}

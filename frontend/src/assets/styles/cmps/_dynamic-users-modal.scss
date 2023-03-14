@@ -1,0 +1,58 @@
+.users-modal-content {
+    // general content
+    .modal-content {
+        .invite{
+            color:#1182f7;
+        }
+        h4 {
+            color: #5e6c84;
+            font-size: 12px;
+            font-weight: 600;
+            line-height: 20px;
+            margin-bottom: 4px;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+        .users-list {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            .user-preview {
+                border-radius: 3px;
+                height: 35px;
+                line-height: 32px;
+                margin-bottom: 2px;
+                overflow: hidden;
+                padding: 4px;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                display: flex;
+                align-items: center;
+                display: flex;
+                align-items: center;
+                margin-bottom: 7px;
+                cursor: pointer;
+
+                &:hover {
+                    background-color: #091e420a;
+                }
+
+                .member-avatar {
+                    margin-right: 10px;
+
+                    &.with-image {
+                    }
+                }
+
+                p {
+                    margin: 0;
+                    line-height: 32px;
+                    // color: #172b4d;
+                    font-size: 14px;
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+}

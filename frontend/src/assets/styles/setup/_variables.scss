@@ -1,0 +1,23 @@
+// Colors
+// main-font-color
+$clr1: #172b4d;
+// secondary-font-color
+$clr2: #5e6c84;
+
+$clr3: #406882;
+$clr4: #95adbe;
+$clr5: #dff0ea;
+$clr6: #fff;
+
+// LAYOUT
+$layoutPadding: 20px;
+
+// Breakpoints
+$break-narrow: 490px;
+$break-585: 585px;
+$break-normal: 760px;
+$break-wide: 960px;
+
+$padded-break-narrow: $break-narrow + $layoutPadding * 2;
+$padded-break-normal: $break-normal + $layoutPadding * 2;
+$padded-break-wide: $break-wide + $layoutPadding * 2;

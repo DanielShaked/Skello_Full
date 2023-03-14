@@ -1,0 +1,80 @@
+// Setup
+@import "setup/typography.scss";
+@import "setup/variables.scss";
+@import "setup/functions.scss";
+@import "setup/mixins.scss";
+
+// Basics
+@import "basics/icons.scss";
+@import "basics/helpers.scss";
+@import "basics/layout.scss";
+@import "basics/base.scss";
+@import "basics/buttons.scss";
+
+// PAGES
+@import "pages/home-page.scss";
+@import "pages/login-signup.scss";
+@import "pages/task-details.scss";
+@import "pages/workspace.scss";
+@import 'pages/board-app.scss';
+
+// Components
+@import "cmps/board-list.scss";
+@import "cmps/loader.scss";
+@import "cmps/app-header.scss";
+@import 'cmps/board-header.scss';
+@import "cmps/dynamic-action-modal.scss";
+@import "cmps/dynamic-cover-modal.scss";
+@import "cmps/dynamic-profile-modal.scss";
+@import "cmps/dynamic-users-modal.scss";
+@import "cmps/popover-side-menu.scss";
+@import "cmps/dynamic-modal-checklist.scss";
+@import "cmps/dynamic-modal-attachment.scss";
+@import "cmps/dynamic-modal-todo-options.scss";
+@import "cmps/dynamic-modal-attachment-edit.scss";
+@import "cmps/dynamic-modal-copy.scss";
+@import "cmps/dates-modal.scss";
+@import "cmps/speech-to-text.scss";
+@import "cmps/create-board-content.scss";
+@import "cmps/popover-bg-picker";
+@import "cmps/quick-task-editor.scss";
+@import "cmps/popover-filter.scss";
+@import "cmps/popover-filter-labels.scss";
+@import "cmps/extra-members-modal.scss";
+@import "cmps/archive-header.scss";
+@import "cmps/popover-archive.scss";
+
+
+
+
+
+
+// details
+@import "cmps/task/details-cover.scss";
+@import "cmps/task/details-header.scss";
+@import "cmps/task/details-description.scss";
+@import "cmps/task/details-members.scss";
+@import "cmps/task/details-additions.scss";
+@import "cmps/task/details-checklist.scss";
+@import "cmps/task/details-activities.scss";
+@import "cmps/task/details-attachments.scss";
+@import "cmps/task/details-date-preview.scss";
+
+// checklists cmps
+@import "cmps/task/task-checklist-preview.scss";
+@import "cmps/task/task-checklist-progress-bar.scss";
+
+// Dynamic-Modal
+@import "cmps/dynamic-modal/labels.scss";
+@import "cmps/dynamic-modal/other-member.scss";
+
+
+// Group
+@import "cmps/group-preview.scss";
+@import "cmps/group-list.scss";
+
+// Task
+@import "cmps/task-preview";
+// general
+@import "cmps/app-header.scss";
+

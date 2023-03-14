@@ -1,0 +1,49 @@
+.board-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(235px, 1fr));
+    grid-auto-rows: 140px;
+    gap: 16px;
+    .board-preview {
+        cursor: pointer;
+        height: 100%;
+        border-radius:5px;
+        position: relative;
+
+        &:hover{
+            .starred-container .star-icon{
+                opacity: 1;
+                stroke-width: 20px;
+            }
+        }
+    }
+
+.starred-container{
+    transition: 0.3s ease-in-out;
+    position: absolute;
+    padding: 3px;
+    border-radius: 7px;
+    // opacity: 0;
+    bottom: 0px;
+    right: 5px;
+    .star-icon{
+        height: 17px;
+        width: 17px;
+        opacity: 0;
+        font-size: 1.3rem;
+        opacity: 1;
+        color: white;
+        stroke-width: 20px;
+        @include for-normal-layout { 
+            opacity: 0;
+        }
+        &.starred{
+            opacity: 1;
+            color: gold
+        }
+
+    }
+
+}
+
+
+}
